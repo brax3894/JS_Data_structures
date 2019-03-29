@@ -1,0 +1,158 @@
+
+//this basically is simple push without any other functionality of pushing to list
+//vvvvvv this code does that code ^^^^^^^^^vvvvvvv
+// var first = new Node("Hi");
+// first.next = new Node("there");
+// first.next.next = new Node("how");
+// first.next.next.next = new Node("are");
+// first.next.next.next.next = new Node("you");
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+
+/////////////////////
+//push psudocode 
+//////////////////////
+
+//this function should accept a value
+
+
+//create a new node using the value passed to the function
+
+// If there is no head property on the list set the head and tail to be the new node that was created
+
+//otherwise set PROPERTY the tail to be the new node and set tail property to be the new node 
+
+
+//incriment by 1
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////
+//pop psuedo 
+///////////////
+//if there are  no nodes in the return undefined
+
+//loop through the 
+
+//loop though the list until ypu reach the tail
+
+//set the next property of the second node to be null 
+
+//set tail to the second tail to be the second to last node 
+
+//decrement the length of the list by 1
+
+//return the value of the node removed
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////
+//shift psuedocode
+////////////////////
+
+//if there are no nodes, return undefined 
+
+//store the current head property in the variable 
+
+// set the head property to be the CURRENT heads NEXT property
+
+//decrement the length by 1
+
+// return the value of the node removed
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////
+//unshift psuedocode
+//////////////////////
+
+
+// this function accept a value 
+
+//create a new node using the value passed to the function
+
+//if the list has no head property, set the head and tail to be the newly created node
+
+// otherwise set the newly created node's NEXT property to be the current head property on the list
+
+// set the head property on the list to be that newly created node 
+
+//increment the length of the list by one 
+
+//return the length of the list
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////
+//get psudocode
+//////////////////
+
+//this function should accept an index 
+
+//if the index is less than 0 or greater than or equal to the length of the list, return null
+
+// loop through the list until you reach the index and return the node at the specific index
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////
+//set psudocode
+/////////////////
+
+//this function should accept a value and an indexa
+
+//use your get function to find the 
+
+//if the node is not found return false
+
+//if node is not found, set the return value of that node to be the value passed to the function and return true
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ /////////////////////
+ //remove psuedo 
+/////////////////////
+
+ //if the index is less than zero or greater than the length, return undefined
+
+ //if the index is the same as the length-1, pop
+
+ //if the index is zero, shift 
+
+ //otherwise, using the get method, access the node at (index-1)
+
+ //set the next property on that node to be the NEXT of the next node 
+
+ // decrement the length
+
+ //return the value of the node removed 
+
+ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+////////////////////
+//reverse psuedo
+/////////////////////
+
+//swap the head and tail
+
+//create a variable called next 
+
+//another called previous
+
+//create a varible called node and initialize it to the head property 
+
+//loop through the list 
+
+//set next to be the next property on whatever node is  
+
+//set the nxt property on the node to be whatever prev is
+
+//set prev to be the value of the node variable 
+
+//set the node variable to be the valuye of the next variable 
+

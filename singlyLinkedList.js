@@ -117,21 +117,30 @@ class singlyLinkedList{
         this.length--;
         return removed;
     }
+    reverse(){
+        var node = this.head;
+        this.head = this.tail;
+        this.tail = node;
+        var next;
+        var prev = null;
+        for(var i = 0; i < this.length ; i++){
+            next = node.next;
+            node.next = prev;
+            prev = node;
+            node = next;
+        }
+        return this;
+    }
 
 }
 
 
 
 
-//vvvvvv this code does that code ^^^^^^^^^vvvvvvv
-// var first = new Node("Hi");
-// first.next = new Node("there");
-// first.next.next = new Node("how");
-// first.next.next.next = new Node("are");
-// first.next.next.next.next = new Node("you");
 
 
-//no need to have a bunch of .next because 
+
+
 var list = new singlyLinkedList();
 list.push("Hello")
 list.push("goodbye")
