@@ -1,0 +1,27 @@
+///////////////////
+// enque psuedo
+///////////////////
+
+// this function should accept a value 
+
+// create a new node using the value passed to the function
+
+// if there are no nodes in the queue, set this node to be the first and last property of the queue
+
+//otherwise set the next property on the current last to be that node, and then set the last property of the queue to be that node
+
+///////////////////
+// dequeue psuedo
+///////////////////
+
+// if there is no first property, just return null
+
+//store the first property in the variable 
+
+//see if the first is the same as the last (check for only one node), if so set first and last to be null
+
+// if there is more than one node, set the first property to be the next property of the first
+
+// decrement size by one 
+
+// return the value of the node dequeued 
